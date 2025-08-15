@@ -2,7 +2,7 @@
 
 set -e
 
-# Configuração do kubeadm
+# Configuração do kubeadm com o flannel
 cat > kubeadm-config.yml <<EOF
 apiVersion: kubeadm.k8s.io/v1beta4
 kind: InitConfiguration
